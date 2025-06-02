@@ -1,6 +1,6 @@
 import pandas as pd
 '''
-This is a custom automation testing library for stress testing the NLP model in recsysV1.py
+This is a custom automation testing library for stress testing the NLP technique
 '''
 class ClubGenerator:
     def select_random_clubs(count):
