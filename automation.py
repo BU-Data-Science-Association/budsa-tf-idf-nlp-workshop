@@ -8,7 +8,7 @@ class ClubGenerator:
         count -> number of clubs to select (int)
         Selects a random "count" number of clubs from the dataset.
         '''
-        file_path = "C:\\Users\\linja\\Documents\\BU Documents\\BUDSA\\bu_organizations.csv" #please use your own local directory
+        file_path = "C:\\Users\\linja\\Documents\\BU Documents\\BUDSA\\nlp workshop\\budsa-tf-idf-nlp-workshop\\bu_organizations.csv" #please use your own local directory
         df = pd.read_csv(file_path)
         output_list = []
         if count > len(df):

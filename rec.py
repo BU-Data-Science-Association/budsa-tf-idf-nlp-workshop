@@ -7,7 +7,7 @@ from math import log
 from automation import ClubGenerator as cd
 
 # Load the dataset containing club information
-file_path = "C:\\Users\\linja\\Documents\\BU Documents\\BUDSA\\bu_organizations.csv"  # Path to the CSV file with club data
+file_path = "C:\\Users\\linja\\Documents\\BU Documents\\BUDSA\\nlp workshop\\budsa-tf-idf-nlp-workshop\\bu_organizations.csv"  # Path to the CSV file with club data
 df = pd.read_csv(file_path)
 
 def preprocess_text(text):
