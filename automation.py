@@ -1,14 +1,10 @@
 import pandas as pd
 '''
-This is a custom automation testing library for stress testing the NLP technique
+This is a custom automation testing module for stress testing the NLP technique
 '''
 class ClubGenerator:
     def select_random_clubs(count):
-        '''
-        count -> number of clubs to select (int)
-        Selects a random "count" number of clubs from the dataset.
-        '''
-        file_path = "C:\\Users\\linja\\Documents\\BU Documents\\BUDSA\\nlp workshop\\budsa-tf-idf-nlp-workshop\\bu_organizations.csv" #please use your own local directory
+        file_path = "###" #please use your own local directory
         df = pd.read_csv(file_path)
         output_list = []
         if count > len(df):
