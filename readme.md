@@ -256,7 +256,7 @@ class ClubGenerator:
 
 ### **3. Load the Dataset**
 ```python
-file_path = "C:\Users\linja\Desktop\Communiti Temp\club_table.csv"
+file_path = "use your own file path!!!"
 df = pd.read_csv(file_path)
 ```
 - Reads the CSV file containing club information.
